@@ -36,7 +36,7 @@ print(my_last_name[-5:-3])
 #       -first name and last name combined
 #       -first name six times
 print(my_first_name + my_last_name)
-
+print(my_first_name * 6) 
 
 
 
@@ -45,13 +45,14 @@ print(my_first_name + my_last_name)
 #   - Print the following items (one per line) (print using variables)
 #       - first name last name -was born in- year of birth
 #       - first name last name -was born in- year of birth. first name -enjoyed celebrating- current year
-
-
+print(my_first_name, my_last_name, 'was born in', my_year_of_birth)
+print(my_first_name, my_last_name, 'was born in', my_year_of_birth + '.', my_first_name, 'enjoyed celebrating', current_year)
 
 # TODO Escape characters
 #   - Print the following items (one per line) (print using variables)
 #       - possesive first name -birth year is- year of birth 
 #       - tab last name current year
+print('dylan\'s',  'birth year is', my_year_of_birth)
 
 
 # TODO String methods
@@ -59,3 +60,6 @@ print(my_first_name + my_last_name)
 #       - first name and last name in lower case
 #       - length of last name
 #       - first name and last name all in upper case
+print(my_first_name.casefold(), my_last_name.casefold())
+print(my_last_name.count(my_last_name))
+print(my_first_name.upper(), my_last_name.upper())
