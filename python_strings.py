@@ -8,8 +8,8 @@
 #       -set this equal to your birth year (doesn't have to be real should be less then 100 yrs ago)
 #   - current_year
 #       -set this equal to 2020
-my_first_name = 'dylan'
-my_last_name = 'jensen'
+my_first_name = 'Dylan'
+my_last_name = 'Jensen'
 my_year_of_birth = '2003'
 current_year = '2023'
 
@@ -52,7 +52,7 @@ print(my_first_name, my_last_name, 'was born in', my_year_of_birth + '.', my_fir
 #   - Print the following items (one per line) (print using variables)
 #       - possesive first name -birth year is- year of birth 
 #       - tab last name current year
-print('dylan\'s',  'birth year is', my_year_of_birth)
+print(my_first_name +'\'s',  'birth year is', my_year_of_birth)
 print('\t', my_last_name, current_year)
 
 # TODO String methods
@@ -61,5 +61,5 @@ print('\t', my_last_name, current_year)
 #       - length of last name
 #       - first name and last name all in upper case
 print(my_first_name.casefold(), my_last_name.casefold())
-print(my_last_name.count(my_last_name))
+print(len(my_last_name))
 print(my_first_name.upper(), my_last_name.upper())
